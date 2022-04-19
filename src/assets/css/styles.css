@@ -3,3 +3,17 @@
     background-size: cover;
     height: 700px;
 }
+
+.texto1{
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    background-color: darkgrey;
+    background-size: 110%;
+    opacity: 50%;
+    border-radius: 7%;
+    border-color: black;
+}
+
+.texto2{
+    font-size: 30px;
+}

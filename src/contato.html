@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/all.css" rel="stylesheet">
+    <link href="assets/css/styles.css" rel="stylesheet">
+    <title>Bootstrap</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-light bg-dark navbar-expand-md fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="assets/images/p-cristo-redentor.jpg" style="width: 60px;"
+                    alt="Logo Igreja"></a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu"
+                aria-expanded="false" aria-label="Botao do menu">
+
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+                <div class="navbar-nav mr-auto">
+                    <a class="nav-link nav-item" style="color: gold;" href="index.html">Horarios</a>
+                    <a class="nav-link nav-item" style="color: gold;" href="momentos.html">Momentos</a>
+
+                    <div class="dropdown">
+                        <a class="nav-link nav-item dropdown-toggle" data-toggle="dropdown"
+                            style="color: gold;">Projetos</a>
+                        <div class="dropdown-menu">
+                            <a href="projeto.html#semteto" class="dropdown-item">Assistencia aos sem teto</a>
+                            <a href="projeto.html#cestas" class="dropdown-item">Cestas basicas</a>
+                            <a href="projeto.html#farmacia" class="dropdown-item">Farmacia solidaria</a>
+                            <a href="projeto.html#prof" class="dropdown-item">Educação para todos</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="navbar-nav">
+
+                    <a class="nav-link nav-item" style="color: darkcyan;" href="#">
+                        <i class="fa-solid fa-envelope"></i> Contato</a>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container" style="margin-top: 99px;">
+        <div class="bgimage2 d-none d-md-block" style="margin-top: 69px;">
+            <span style="margin-top: 50px; position: static; color: goldenrod; font-weight: bolder;">
+                <h1 class="text-center">Duvidas, sugestões ou vontade de amar o proximo? </br> Fale conosco!</h1>
+            </span>
+        </div>
+
+
+        <form action="">
+            <fieldset class="form-group">
+                <legend class="font-weight-bold">Informações Pessoais</legend>
+
+                <div class="form-group row">
+                    <label for="nome" class="col-form-label col-lg-2">Nome</label>
+                    <div class="col-lg-10">
+                        <input type="text" class="form-control is-valid" placeholder="Nome" id="nome" name="nome">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="tempo" class="col-form-label col-lg-2">Tempo na igreja</label>
+                    <div class="col-lg-10">
+                        <input type="text" id="tempo" name="tempo" class="form-control is-invalid"
+                            placeholder="Tempo sendo cristão">
+                        <div class="invalid-feedback">
+                            Este campo deve ser informado.
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="doutrina" class="col-form-label col-lg-2">Qual doutrina que mais se identifica?</label>
+                    <div class="col-lg-10">
+                        <input type="text" id="doutrina" name="doutrina" class="form-control is-invalid"
+                            placeholder="Pentecostal, batista, etc..">
+                        <div class="invalid-feedback">
+                            Este campo deve ser informado.
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="email" class="col-form-label col-lg-2">Email</label>
+                    <div class="col-lg-10">
+                        <input type="text" id="email" name="email" class="form-control is-invalid"
+                            placeholder="fulano@hotmail.com">
+                        <div class="invalid-feedback">
+                            Este campo deve ser informado.
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-form-label col-lg-2">Sexo</label>
+                    <div class="col-lg-10" style="padding-top: 7px;">
+                        <div class="form-check form-check-inline">
+                            <input type="radio" id="sexo-masc" name="sexo" value="M" class="form-check-input">
+                            <label for="sexo-masc" class="form-check-label">
+                                Masculino
+                            </label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input type="radio" id="sexo-fem" name="sexo" value="F" class="form-check-input">
+                            <label for="sexo-fem" class="form-check-label">
+                                Feminino
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+            </fieldset>
+            <div class="form-group row">
+                <div class=" col-lg-8 offset-lg-2">
+                    <button type="button" class="btn btn-primary">
+                        Enviar
+                    </button>
+                </div>
+            </div>
+        </form>
+
+
+    </div>
+
+
+
+    <div class="footer">
+        <div class="row">
+            <div class="col-lg-3">Obrigado por suas contribuições!</div>
+            <div class="col-lg-3">Dê uma checada na aba de projetos para ver seu impacto</div>
+            <div class="col-lg-4">Venha aos cultos, edifique sua alma e seu espirito! </br> Ler a palavra é de extrema
+                importancia!</div>
+            <div class="col-lg-2">
+                <div style="color: aqua;">
+                    Contatos
+                </div>
+                <div style="color: darkseagreen;">
+                    <i class="fa-solid fa-phone"></i> 3456-7869
+                    <div>
+                        <i class="fa-solid fa-envelope-square"></i> uffcomfe@id.uff.br
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="assets/js/jquery-3.3.1.js"></script>
+<script src="assets/js/popper.js"></script>
+<script src="assets/js/bootstrap.js"></script>
+<script src="assets/js/script.js"></script>
+
+</html>

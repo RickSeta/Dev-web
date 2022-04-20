@@ -17,3 +17,9 @@
 .texto2{
     font-size: 30px;
 }
+
+.footer{
+    background-color: black;
+    color: goldenrod;
+    padding: 25px;
+}
